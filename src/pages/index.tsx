@@ -1,11 +1,15 @@
 import React from 'react'
-import Form from "../components/form.jsx";
 import Users from "../components/userList"
+import Head from 'next/head.js';
+import Nav from '../components/navbar';
 
 const index = () => {
   return (
     <>
-      <Form />
+     <Head>
+       
+     </Head>
+      <Nav/>
       <Users />
     </>
   )
